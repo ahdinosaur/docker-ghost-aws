@@ -1,0 +1,13 @@
+{
+  "name": "docker-ghost-aws",
+  "version": "1.0.1",
+  "description": "docker image to clean docker every hour",
+  "main": "index.js",
+  "scripts": {
+    "build": "docker build -t ahdinosaur/docker-ghost-aws .",
+    "example": "docker run --rm ahdinosaur/docker-ghost-aws",
+    "push": "docker push ahdinosaur/docker-ghost-aws"
+  },
+  "author": "Mikey <michael.williams@enspiral.com> (http://dinosaur.is)",
+  "license": "ISC"
+}
