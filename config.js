@@ -1,5 +1,8 @@
 module.exports = {
   production: {
+    paths: {
+      contentPath: process.env.GHOST_CONTENT
+    },
     url: process.env.URL,
     mail: {
       transport: 'SMTP',
@@ -24,7 +27,7 @@ module.exports = {
     },
     server: {
       host: '0.0.0.0',
-      port: process.env.PORT
+      port: 2368
     },
     storage: {
       active: 'ghost-s3',

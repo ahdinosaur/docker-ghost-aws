@@ -4,9 +4,10 @@
   "description": "docker image to clean docker every hour",
   "main": "index.js",
   "scripts": {
-    "build": "docker build -t ahdinosaur/docker-ghost-aws .",
-    "example": "docker run --rm ahdinosaur/docker-ghost-aws",
-    "push": "docker push ahdinosaur/docker-ghost-aws"
+    "build": "docker build -t ahdinosaur/ghost-aws .",
+    "example": "docker run --rm ahdinosaur/ghost-aws",
+    "push": "docker push ahdinosaur/ghost-aws",
+    "pull": "docker pull ahdinosaur/ghost-aws"
   },
   "author": "Mikey <michael.williams@enspiral.com> (http://dinosaur.is)",
   "license": "ISC"
