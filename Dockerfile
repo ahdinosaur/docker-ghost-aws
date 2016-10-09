@@ -1,4 +1,4 @@
-FROM ghost
+FROM ghost:0.11.0
 MAINTAINER Michael Williams <michael.williams@enspiral.com>
 
 RUN \
